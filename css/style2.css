@@ -50,3 +50,37 @@ body{
   float: left;
   width: 550px;
 }
+
+#validation{
+  clear: both;
+  position: absolute;
+  bottom: -265px;
+  left: calc((100% - 925px) / 2);
+  width: 925px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #7A0019;
+  color: white;
+  padding: 10px;
+}
+
+#Elena, #KK, #Peter, #Nic{
+  width: 50%;
+}
+.card-text{
+  list-style-type: none;
+  clear: both;
+}
+.card-body{
+  text-align: center;
+}
+.card-text li{
+  padding: 5px;
+}
+.card-text ul{
+  display: inline-block;
+}
+.card-title{
+  font-size: 1em;
+  margin: 0;
+}
