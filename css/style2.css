@@ -14,7 +14,7 @@ h1{
 body{
   padding: 30px;
   margin: 0 auto;
-  width: 1250px;
+  width: 925px;
   background-color: #ffffff;
 }
 
@@ -24,14 +24,13 @@ body{
   background-color: #7A0019;
   color: white;
   padding: 15px;
-  max-width: 885px;
+  width: 100%;
   margin: 5px auto;
 }
 
 #courses{
-  max-width: 325px;
+  max-width: 32%;
   float: left;
-  margin-left: 148px;
   height: 562.812px;
 }
 
@@ -39,8 +38,8 @@ body{
   margin: 6px;
 }
 .faculty-container{
-  width: 590px;
-  float: left;
+  width: 63%;
+  float: right;
 }
 
 #faculty-list{
@@ -50,9 +49,7 @@ body{
 }
 
 #faculty{
-  margin: 5px;
   float: left;
-  width: 550px;
 }
 
 #validation{
