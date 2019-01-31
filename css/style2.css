@@ -6,8 +6,22 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
+h1{
+  font-size: 4em;
+  text-align: center;
+}
 
 body{
-    padding: 30px;
-    background-color: #ffffff;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.section{
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #7A0019;
+  color: white;
+  padding: 15px;
+  max-width: 885px;
+  margin: 5px auto;
 }
