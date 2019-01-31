@@ -32,8 +32,12 @@ body{
   max-width: 325px;
   float: left;
   margin-left: 148px;
+  height: 562.812px;
 }
 
+#courses li{
+  margin: 6px;
+}
 .faculty-container{
   width: 590px;
   float: left;
