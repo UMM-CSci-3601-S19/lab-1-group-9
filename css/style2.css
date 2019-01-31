@@ -13,6 +13,8 @@ h1{
 
 body{
   padding: 30px;
+  margin: 0 auto;
+  width: 1250px;
   background-color: #ffffff;
 }
 
@@ -24,4 +26,27 @@ body{
   padding: 15px;
   max-width: 885px;
   margin: 5px auto;
+}
+
+#courses{
+  max-width: 325px;
+  float: left;
+  margin-left: 148px;
+}
+
+.faculty-container{
+  width: 590px;
+  float: left;
+}
+
+#faculty-list{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#faculty{
+  margin: 5px;
+  float: left;
+  width: 550px;
 }
