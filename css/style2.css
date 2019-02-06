@@ -45,6 +45,7 @@ body{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 #faculty{
@@ -109,5 +110,20 @@ body{
     color: white;
     padding: 10px;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 580px) {
+  #Elena, #KK, #Peter, #Nic{
+    width: 100%;
+    text-align: center;
+  }
+  #faculty-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  #faculty{
   }
 }
