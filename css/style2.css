@@ -1,11 +1,9 @@
-/*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
+body{
+  margin: 70px auto 0 auto;
+  max-width: 925px;
+  background-color: #FFDE7A;
+}
 
-*/
 h1{
   font-size: 4em;
   text-align: center;
@@ -14,15 +12,11 @@ h1{
 h2{
   text-align: center;
 }
-body{
-  margin: 70px auto 0 auto;
-  max-width: 925px;
-  background-color: #FFDE7A;
-}
 
 a{
   color: #FFDE7A;
 }
+
 .section{
   border: 5px solid black;
   border-radius: 10px;
@@ -42,6 +36,7 @@ a{
 #courses li{
   margin: 6px;
 }
+
 .faculty-container{
   width: 63%;
   float: right;
@@ -58,6 +53,10 @@ a{
   float: left;
 }
 
+#Elena, #KK, #Peter, #Nic{
+  width: 50%;
+}
+
 #validation{
   clear: both;
   margin-left: -342px;
@@ -70,9 +69,6 @@ a{
   text-align: center;
 }
 
-#Elena, #KK, #Peter, #Nic{
-  width: 50%;
-}
 .card-text{
   list-style-type: none;
   clear: both;
@@ -104,11 +100,10 @@ a{
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 18px; /*this adds some spacing around the items in our "nav bar" */
+  padding: 10px 18px;
   text-decoration: none;
 }
 
-/* Change the link background color to #000 (black) on hover */
 #style li a:hover {
   background-color: #000;
 }
@@ -123,6 +118,7 @@ a{
   top: 0;
   height: 55px;
 }
+/* Switch to one column layout */
 @media only screen and (max-width: 970px) {
   body{
     width: 90%;
@@ -148,11 +144,12 @@ a{
     text-align: center;
   }
 }
+/* Switch to one column layout for professor images */
 @media only screen and (max-width: 580px) {
   #Elena, #KK, #Peter, #Nic{
     width: 100%;
     text-align: center;
-  }
+  }/* Switch to one column layout */
   #faculty-list{
     display:flex;
     flex-direction: row;
