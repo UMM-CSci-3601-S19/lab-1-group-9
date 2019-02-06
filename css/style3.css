@@ -6,8 +6,39 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 
 */
+h1{
+  text-align: center;
+}
 
 body{
     padding: 30px;
-    background-color: #aaaaaa;
+    background-color: #FFDE7A;
+    color: #7A0019;
 }
+
+.pslo-courses-container {
+  float: left;
+  max-width: 48%;
+}
+
+.faculty-container {
+  float: right;
+  max-width: 48%;
+
+}
+#faculty-list {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+#Elena, #KK, #Peter, #Nic{
+  width: 50%;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
