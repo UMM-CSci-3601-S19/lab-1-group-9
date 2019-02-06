@@ -20,6 +20,9 @@ body{
   float: left;
   max-width: 48%;
 }
+.pslo {
+  margin-bottom: 4%;
+}
 
 .faculty-container {
   float: right;
