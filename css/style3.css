@@ -1,20 +1,12 @@
-/*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
+body{
+  padding: 30px;
+  background-color: #FFDE7A;
+  color: #7A0019;
+}
 
-*/
 h1{
   text-align: center;
   font-size: 3em;
-}
-
-body{
-    padding: 30px;
-    background-color: #FFDE7A;
-    color: #7A0019;
 }
 
 .pslo-courses-container {
@@ -37,18 +29,28 @@ body{
   list-style-type: none;
 }
 
-.section{
-  border-bottom: 7px solid #7A0019;
-}
 #Elena, #KK, #Peter, #Nic{
   width: 50%;
 }
 
+/* Making an h6 header look like an h2 header */
 .card-title {
   font-size: 1.5em;
   margin: 19.920px auto;
 }
 
+/* Place borders on the bottom of each section*/
+#validation {
+  border-bottom: 7px solid #7A0019;
+  margin-bottom: 70px; /* space the bottom of the page so that style selection bar does not overlap the content*/
+}
+
+
+.section{
+  border-bottom: 7px solid #7A0019;
+}
+
+/* Style Selection on bottom of page */
 #style ul {
   list-style-type: none;
   padding: 0;
@@ -79,10 +81,8 @@ body{
   bottom: 0;
 
 }
-.card-body {
-  margin-bottom: 70px;
-}
 
+/* Collapse Professors to single column */
 @media only screen and (max-width: 1000px) {
   #Peter, #Nic, #KK, #Elena {
     width: 200px;
@@ -96,6 +96,7 @@ body{
   }
 }
 
+/*Collapse page to single column, expand professors to two columns */
 @media only screen and (max-width: 700px) {
   .pslo-courses-container {
     float: none;
@@ -117,6 +118,8 @@ body{
     padding: 0;
   }
 }
+
+/* Collapse Professors to single column again*/
 @media only screen and (max-width: 540px) {
   #faculty-list {
     display:flex;
