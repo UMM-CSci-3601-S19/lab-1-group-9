@@ -37,13 +37,16 @@ body{
   list-style-type: none;
 }
 
+.section{
+  border-bottom: 7px solid #7A0019;
+}
 #Elena, #KK, #Peter, #Nic{
   width: 50%;
 }
 
 .card-title {
   font-size: 1.5em;
-  margin: 0 auto;
+  margin: 19.920px auto;
 }
 
 #style ul {
