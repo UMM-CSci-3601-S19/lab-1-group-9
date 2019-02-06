@@ -113,7 +113,7 @@ body{
   float: left;
 }
 #style {
-  position: fixed;
+  position: absolute;
   background-color: #7A0019;
   left: 0;
   right: 0;
