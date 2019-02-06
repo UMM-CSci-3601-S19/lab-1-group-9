@@ -20,6 +20,9 @@ body{
   background-color: #FFDE7A;
 }
 
+a{
+  color: #FFDE7A;
+}
 .section{
   border: 5px solid black;
   border-radius: 10px;
