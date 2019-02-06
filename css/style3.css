@@ -13,6 +13,7 @@ h1{
   float: left;
   max-width: 48%;
 }
+/* We added a margin to the bottom of each pslo element to add spacing to the list, making it take up more room and be more readable */
 .pslo {
   margin-bottom: 4%;
 }
@@ -33,18 +34,17 @@ h1{
   width: 50%;
 }
 
-/* Making an h6 header look like an h2 header */
+/* We used font-size and margins to make an h6 header look like an h2 header */
 .card-title {
   font-size: 1.5em;
   margin: 19.920px auto;
 }
 
-/* Place borders on the bottom of each section*/
+/* We used border-botom to place borders on the bottom of each section */
 #validation {
   border-bottom: 7px solid #7A0019;
   margin-bottom: 70px; /* space the bottom of the page so that style selection bar does not overlap the content*/
 }
-
 
 .section{
   border-bottom: 7px solid #7A0019;
@@ -73,6 +73,7 @@ h1{
 #style li{
   float: left;
 }
+/*We used a combination of position: fixed and bottom: 0 to stick the stylesheet selection bar at the bottom of the user's browser */
 #style {
   position: fixed;
   background-color: #FFDE7A;
@@ -121,6 +122,7 @@ h1{
 
 /* Collapse Professors to single column again*/
 @media only screen and (max-width: 540px) {
+  /* We changed the flex-direction from row to column in order to stack the pictures on top of eachother before flexbox would have done it on its own */
   #faculty-list {
     display:flex;
     flex-direction: column;

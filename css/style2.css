@@ -4,6 +4,7 @@ body{
   background-color: #FFDE7A;
 }
 
+/*We used font-size: 4em to make the largest heading bigger, and text-align: center to center it */
 h1{
   font-size: 4em;
   text-align: center;
@@ -27,6 +28,7 @@ a{
   margin: 5px auto;
 }
 
+/* We gave courses a max-width and float so Faculty would sit next to it, and a min-height so it would be the same height as Faculty */
 #courses{
   max-width: 32%;
   float: left;
@@ -41,7 +43,7 @@ a{
   width: 63%;
   float: right;
 }
-
+/* We used flexbox to display the faculty list as a self-readjusting table as the width of the page changed */
 #faculty-list{
   display:flex;
   flex-direction: row;
@@ -57,6 +59,7 @@ a{
   width: 50%;
 }
 
+/*We used a negative margin-left to move validation the correct amount to the left to separate it from the faculty container that it shares a parent with. */
 #validation{
   clear: both;
   margin-left: -342px;
@@ -69,6 +72,7 @@ a{
   text-align: center;
 }
 
+/*We used list-style-type: none to remove the bullet points from before each list item and padding: 0 to remove the space that the bullet points normally would occupy.*/
 .card-text{
   list-style-type: none;
   clear: both;
