@@ -42,3 +42,10 @@ body{
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 1000px) {
+  #Peter, #Nic, #KK, #Elena{
+    width: 200px;
+
+  }
+
+}
