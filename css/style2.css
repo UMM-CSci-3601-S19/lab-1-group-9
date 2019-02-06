@@ -30,7 +30,7 @@ body{
 #courses{
   max-width: 32%;
   float: left;
-  height: 562.812px;
+  min-height: 562.812px;
 }
 
 #courses li{
@@ -53,7 +53,7 @@ body{
 
 #validation{
   clear: both;
-  margin-left: -382.25px;
+  margin-left: -342px;
   max-width: 925px;
   border: 5px solid black;
   border-radius: 10px;
@@ -84,4 +84,30 @@ body{
 .card-title{
   font-size: 1em;
   margin: 0;
+}
+
+@media only screen and (max-width: 970px) {
+  body{
+    width: 90%;
+  }
+  .pslo-courses-container{
+    float: none;
+    width: 100%;
+  }
+  #courses{
+    max-width: 100%;
+    min-height: 0;
+  }
+  .faculty-container{
+    float: none;
+    width: 100%;
+  }
+  #validation{
+    clear: both;
+    margin-left: 0;
+    max-width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
 }
