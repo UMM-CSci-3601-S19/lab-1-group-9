@@ -43,9 +43,21 @@ body{
 }
 
 @media only screen and (max-width: 1000px) {
-  #Peter, #Nic, #KK, #Elena{
+  #Peter, #Nic, #KK, #Elena {
     width: 200px;
-
   }
+}
 
+@media only screen and (max-width: 700px) {
+  .pslo-courses-container {
+    float: none;
+    max-width: 100%;
+  }
+  .faculty-container {
+    float: none;
+    max-width: 100%;
+  }
+  #Peter, #Nic, #KK, #Elena {
+    width: 50%;
+  }
 }
